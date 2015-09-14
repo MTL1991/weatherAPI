@@ -72,7 +72,7 @@ optional arguments:
   -c CITY, --city CITY  Seleccionar ciudad
   -d DAY, --day DAY     Dia concreto en formato dd/mm/yyyy
 
-Nota: Por defecto esta configurado para tomar los datos de la aplicación desplegada en heroku en la dirección http://weatherapimanuel.herokuapp.com/ para utilizar el script con el servidor lanzado en local bastará con modificar en el script la variable serverUrl por aquella que corresponda
+Nota: Por defecto esta configurado para tomar los datos de la aplicación desplegada en heroku en la dirección http://testmanuel.herokuapp.com/ para utilizar el script con el servidor lanzado en local bastará con modificar en el script la variable serverUrl por aquella que corresponda
 
 
 
