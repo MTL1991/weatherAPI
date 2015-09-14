@@ -1,0 +1,29 @@
+{% extends "index.html" %}
+
+{% block content %} <ol>
+<dl>
+
+   <div class="col-md-6">    <h1>Daily Weather free API</h1>  <p>Tired of looking for a free API that allows you to know the temperature? You've come to the right place. With our simple functionality you'll have the time of the city you want and even be able to specify the day</p>
+   <dt>Know our last updated weather on a city</dt>
+   <dd>To know the temperature of a city it is sufficient to make a request to:<br><br><blockquote><b>dailyweather.herokuapp.com/api/{cityName}<br>or<br>dailyweather.herokuapp.com/api/{acronymCity}</b></blockquote>On the rigth side you can see a list of all available cities. It is important to use the name as it appears.<br> You are going to receive a JSON object like:<blockquote><b>{"date": "2015-09-10", "city": "Madrid", "temp": 25}</b></blockquote></dd><br>
+   <dt>Know a specific day weather on a city</dt>
+   <dd>To know the temperature of a city on a specific day it is sufficient to make a request to:<br><br><blockquote><b>dailyweather.herokuapp.com/api/{cityName}/{dd}/{mm}/{yyyy}<br>or<br>dailyweather.herokuapp.com/api/{acronymCity}/{dd}/{mm}/{yyyy}</b></blockquote>You are going to receive a JSON object like:<blockquote><b>{"date": "2015-09-10", "city": "Madrid", "temp": 25}</b></blockquote>Note that if the day that you want is not on you DB you are going to receive a error message</dd>
+   </div>
+<div class="col-md-6">
+	<div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>City</th>
+                  <th>Acronym</th>
+                  <th></th>
+                </tr>
+              </thead>
+              </tbody>
+                {% include "_all_cities_list.html" with list=all_cities %}
+
+              </tbody>
+            </table>
+          </div>
+</dl>{% endblock %}
+

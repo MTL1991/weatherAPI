@@ -1,0 +1,5086 @@
+[
+{
+    "fields": {
+        "model": "logentry",
+        "name": "log entry",
+        "app_label": "admin"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 1
+},
+{
+    "fields": {
+        "model": "permission",
+        "name": "permission",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 2
+},
+{
+    "fields": {
+        "model": "group",
+        "name": "group",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 3
+},
+{
+    "fields": {
+        "model": "user",
+        "name": "user",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 4
+},
+{
+    "fields": {
+        "model": "contenttype",
+        "name": "content type",
+        "app_label": "contenttypes"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 5
+},
+{
+    "fields": {
+        "model": "session",
+        "name": "session",
+        "app_label": "sessions"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 6
+},
+{
+    "fields": {
+        "model": "message",
+        "name": "Message",
+        "app_label": "django_messages"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 7
+},
+{
+    "fields": {
+        "model": "city",
+        "name": "city",
+        "app_label": "ppal"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 8
+},
+{
+    "fields": {
+        "model": "dailyweather",
+        "name": "daily weather",
+        "app_label": "ppal"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 9
+},
+{
+    "fields": {
+        "expire_date": "2015-09-28T11:22:42.830Z",
+        "session_data": "NDVjMzZhZjBlMTg3ODdlZmZmMzhhN2RhZWM0YTdjMmQxNTJhMGQxMTp7fQ=="
+    },
+    "model": "sessions.session",
+    "pk": "3hpdhkvp33wc6wyas1oscia93a4bcqbq"
+},
+{
+    "fields": {
+        "acronym": "MAD",
+        "name": "Madrid"
+    },
+    "model": "ppal.city",
+    "pk": 1
+},
+{
+    "fields": {
+        "acronym": "LON",
+        "name": "Londres"
+    },
+    "model": "ppal.city",
+    "pk": 2
+},
+{
+    "fields": {
+        "acronym": "PMI",
+        "name": "Palma de Mallorca"
+    },
+    "model": "ppal.city",
+    "pk": 3
+},
+{
+    "fields": {
+        "acronym": "SVQ",
+        "name": "Sevilla"
+    },
+    "model": "ppal.city",
+    "pk": 4
+},
+{
+    "fields": {
+        "acronym": "ROM",
+        "name": "Roma"
+    },
+    "model": "ppal.city",
+    "pk": 5
+},
+{
+    "fields": {
+        "acronym": "MIL",
+        "name": "Milan"
+    },
+    "model": "ppal.city",
+    "pk": 6
+},
+{
+    "fields": {
+        "acronym": "FLR",
+        "name": "Florencia"
+    },
+    "model": "ppal.city",
+    "pk": 7
+},
+{
+    "fields": {
+        "acronym": "NAP",
+        "name": "Napoles"
+    },
+    "model": "ppal.city",
+    "pk": 8
+},
+{
+    "fields": {
+        "acronym": "PAR",
+        "name": "Paris"
+    },
+    "model": "ppal.city",
+    "pk": 9
+},
+{
+    "fields": {
+        "acronym": "MRS",
+        "name": "Marsella"
+    },
+    "model": "ppal.city",
+    "pk": 10
+},
+{
+    "fields": {
+        "acronym": "BCN",
+        "name": "Barcelona"
+    },
+    "model": "ppal.city",
+    "pk": 11
+},
+{
+    "fields": {
+        "acronym": "DUB",
+        "name": "Dublin"
+    },
+    "model": "ppal.city",
+    "pk": 12
+},
+{
+    "fields": {
+        "acronym": "VER",
+        "name": "Berlin"
+    },
+    "model": "ppal.city",
+    "pk": 13
+},
+{
+    "fields": {
+        "acronym": "HAM",
+        "name": "Hamburgo"
+    },
+    "model": "ppal.city",
+    "pk": 14
+},
+{
+    "fields": {
+        "acronym": "MUC",
+        "name": "Munich"
+    },
+    "model": "ppal.city",
+    "pk": 15
+},
+{
+    "fields": {
+        "acronym": "OSL",
+        "name": "Oslo"
+    },
+    "model": "ppal.city",
+    "pk": 16
+},
+{
+    "fields": {
+        "acronym": "CPH",
+        "name": "Copenhague"
+    },
+    "model": "ppal.city",
+    "pk": 17
+},
+{
+    "fields": {
+        "acronym": "NYC",
+        "name": "Nueva York"
+    },
+    "model": "ppal.city",
+    "pk": 18
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-01",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 1
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-02",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 2
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-03",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 3
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-04",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 4
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-05",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 5
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-06",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 6
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-07",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 7
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-08",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 8
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-09",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 9
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-10",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 10
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-11",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 11
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-12",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 12
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-13",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 13
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-14",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 14
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-15",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 15
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-16",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 16
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-17",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 17
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-18",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 18
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-19",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 19
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-20",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 20
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-21",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 21
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-22",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 22
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-23",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 23
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-24",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 24
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-25",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 25
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-26",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 26
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-27",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 27
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-28",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 28
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-29",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 29
+},
+{
+    "fields": {
+        "city": 1,
+        "day": "2015-09-30",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 30
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-01",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 31
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-02",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 32
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-03",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 33
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-04",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 34
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-05",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 35
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-06",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 36
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-07",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 37
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-08",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 38
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-09",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 39
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-10",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 40
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-11",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 41
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-12",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 42
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-13",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 43
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-14",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 44
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-15",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 45
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-16",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 46
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-17",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 47
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-18",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 48
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-19",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 49
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-20",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 50
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-21",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 51
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-22",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 52
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-23",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 53
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-24",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 54
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-25",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 55
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-26",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 56
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-27",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 57
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-28",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 58
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-29",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 59
+},
+{
+    "fields": {
+        "city": 2,
+        "day": "2015-09-30",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 60
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-01",
+        "temperature": 30
+    },
+    "model": "ppal.dailyweather",
+    "pk": 61
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-02",
+        "temperature": 30
+    },
+    "model": "ppal.dailyweather",
+    "pk": 62
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-03",
+        "temperature": 30
+    },
+    "model": "ppal.dailyweather",
+    "pk": 63
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-04",
+        "temperature": 30
+    },
+    "model": "ppal.dailyweather",
+    "pk": 64
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-05",
+        "temperature": 29
+    },
+    "model": "ppal.dailyweather",
+    "pk": 65
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-06",
+        "temperature": 29
+    },
+    "model": "ppal.dailyweather",
+    "pk": 66
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-07",
+        "temperature": 29
+    },
+    "model": "ppal.dailyweather",
+    "pk": 67
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-08",
+        "temperature": 29
+    },
+    "model": "ppal.dailyweather",
+    "pk": 68
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-09",
+        "temperature": 29
+    },
+    "model": "ppal.dailyweather",
+    "pk": 69
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-10",
+        "temperature": 29
+    },
+    "model": "ppal.dailyweather",
+    "pk": 70
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-11",
+        "temperature": 29
+    },
+    "model": "ppal.dailyweather",
+    "pk": 71
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-12",
+        "temperature": 29
+    },
+    "model": "ppal.dailyweather",
+    "pk": 72
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-13",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 73
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-14",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 74
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-15",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 75
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-16",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 76
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-17",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 77
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-18",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 78
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-19",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 79
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-20",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 80
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-21",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 81
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-22",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 82
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-23",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 83
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-24",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 84
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-25",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 85
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-26",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 86
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-27",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 87
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-28",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 88
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-29",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 89
+},
+{
+    "fields": {
+        "city": 3,
+        "day": "2015-09-30",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 90
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-01",
+        "temperature": 34
+    },
+    "model": "ppal.dailyweather",
+    "pk": 91
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-02",
+        "temperature": 34
+    },
+    "model": "ppal.dailyweather",
+    "pk": 92
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-03",
+        "temperature": 34
+    },
+    "model": "ppal.dailyweather",
+    "pk": 93
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-04",
+        "temperature": 34
+    },
+    "model": "ppal.dailyweather",
+    "pk": 94
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-05",
+        "temperature": 34
+    },
+    "model": "ppal.dailyweather",
+    "pk": 95
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-06",
+        "temperature": 33
+    },
+    "model": "ppal.dailyweather",
+    "pk": 96
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-07",
+        "temperature": 33
+    },
+    "model": "ppal.dailyweather",
+    "pk": 97
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-08",
+        "temperature": 33
+    },
+    "model": "ppal.dailyweather",
+    "pk": 98
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-09",
+        "temperature": 33
+    },
+    "model": "ppal.dailyweather",
+    "pk": 99
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-10",
+        "temperature": 33
+    },
+    "model": "ppal.dailyweather",
+    "pk": 100
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-11",
+        "temperature": 33
+    },
+    "model": "ppal.dailyweather",
+    "pk": 101
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-12",
+        "temperature": 33
+    },
+    "model": "ppal.dailyweather",
+    "pk": 102
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-13",
+        "temperature": 32
+    },
+    "model": "ppal.dailyweather",
+    "pk": 103
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-14",
+        "temperature": 32
+    },
+    "model": "ppal.dailyweather",
+    "pk": 104
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-15",
+        "temperature": 32
+    },
+    "model": "ppal.dailyweather",
+    "pk": 105
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-16",
+        "temperature": 32
+    },
+    "model": "ppal.dailyweather",
+    "pk": 106
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-17",
+        "temperature": 32
+    },
+    "model": "ppal.dailyweather",
+    "pk": 107
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-18",
+        "temperature": 32
+    },
+    "model": "ppal.dailyweather",
+    "pk": 108
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-19",
+        "temperature": 31
+    },
+    "model": "ppal.dailyweather",
+    "pk": 109
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-20",
+        "temperature": 31
+    },
+    "model": "ppal.dailyweather",
+    "pk": 110
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-21",
+        "temperature": 31
+    },
+    "model": "ppal.dailyweather",
+    "pk": 111
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-22",
+        "temperature": 31
+    },
+    "model": "ppal.dailyweather",
+    "pk": 112
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-23",
+        "temperature": 30
+    },
+    "model": "ppal.dailyweather",
+    "pk": 113
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-24",
+        "temperature": 30
+    },
+    "model": "ppal.dailyweather",
+    "pk": 114
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-25",
+        "temperature": 30
+    },
+    "model": "ppal.dailyweather",
+    "pk": 115
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-26",
+        "temperature": 30
+    },
+    "model": "ppal.dailyweather",
+    "pk": 116
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-27",
+        "temperature": 30
+    },
+    "model": "ppal.dailyweather",
+    "pk": 117
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-28",
+        "temperature": 29
+    },
+    "model": "ppal.dailyweather",
+    "pk": 118
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-29",
+        "temperature": 29
+    },
+    "model": "ppal.dailyweather",
+    "pk": 119
+},
+{
+    "fields": {
+        "city": 4,
+        "day": "2015-09-30",
+        "temperature": 29
+    },
+    "model": "ppal.dailyweather",
+    "pk": 120
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-01",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 121
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-02",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 122
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-03",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 123
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-04",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 124
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-05",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 125
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-06",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 126
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-07",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 127
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-08",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 128
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-09",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 129
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-10",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 130
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-11",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 131
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-12",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 132
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-13",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 133
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-14",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 134
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-15",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 135
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-16",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 136
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-17",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 137
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-18",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 138
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-19",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 139
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-20",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 140
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-21",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 141
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-22",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 142
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-23",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 143
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-24",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 144
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-25",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 145
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-26",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 146
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-27",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 147
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-28",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 148
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-29",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 149
+},
+{
+    "fields": {
+        "city": 5,
+        "day": "2015-09-30",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 150
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-01",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 151
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-02",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 152
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-03",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 153
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-04",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 154
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-05",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 155
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-06",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 156
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-07",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 157
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-08",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 158
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-09",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 159
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-10",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 160
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-11",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 161
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-12",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 162
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-13",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 163
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-14",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 164
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-15",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 165
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-16",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 166
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-17",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 167
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-18",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 168
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-19",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 169
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-20",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 170
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-21",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 171
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-22",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 172
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-23",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 173
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-24",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 174
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-25",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 175
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-26",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 176
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-27",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 177
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-28",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 178
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-29",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 179
+},
+{
+    "fields": {
+        "city": 6,
+        "day": "2015-09-30",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 180
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-01",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 181
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-02",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 182
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-03",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 183
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-04",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 184
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-05",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 185
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-06",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 186
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-07",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 187
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-08",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 188
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-09",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 189
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-10",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 190
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-11",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 191
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-12",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 192
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-13",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 193
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-14",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 194
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-15",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 195
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-16",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 196
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-17",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 197
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-18",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 198
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-19",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 199
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-20",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 200
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-21",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 201
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-22",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 202
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-23",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 203
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-24",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 204
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-25",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 205
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-26",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 206
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-27",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 207
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-28",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 208
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-29",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 209
+},
+{
+    "fields": {
+        "city": 8,
+        "day": "2015-09-30",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 210
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-01",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 211
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-02",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 212
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-03",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 213
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-04",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 214
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-05",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 215
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-06",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 216
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-07",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 217
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-08",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 218
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-09",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 219
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-10",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 220
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-11",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 221
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-12",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 222
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-13",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 223
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-14",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 224
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-15",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 225
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-16",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 226
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-17",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 227
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-18",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 228
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-19",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 229
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-20",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 230
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-21",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 231
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-22",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 232
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-23",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 233
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-24",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 234
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-25",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 235
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-26",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 236
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-27",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 237
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-28",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 238
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-29",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 239
+},
+{
+    "fields": {
+        "city": 9,
+        "day": "2015-09-30",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 240
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-01",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 241
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-02",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 242
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-03",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 243
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-04",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 244
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-05",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 245
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-06",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 246
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-07",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 247
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-08",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 248
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-09",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 249
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-10",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 250
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-11",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 251
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-12",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 252
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-13",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 253
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-14",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 254
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-15",
+        "temperature": 28
+    },
+    "model": "ppal.dailyweather",
+    "pk": 255
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-16",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 256
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-17",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 257
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-18",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 258
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-19",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 259
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-20",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 260
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-21",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 261
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-22",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 262
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-23",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 263
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-24",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 264
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-25",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 265
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-26",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 266
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-27",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 267
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-28",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 268
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-29",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 269
+},
+{
+    "fields": {
+        "city": 10,
+        "day": "2015-09-30",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 270
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-01",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 271
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-02",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 272
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-03",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 273
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-04",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 274
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-05",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 275
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-06",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 276
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-07",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 277
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-08",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 278
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-09",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 279
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-10",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 280
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-11",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 281
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-12",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 282
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-13",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 283
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-14",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 284
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-15",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 285
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-16",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 286
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-17",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 287
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-18",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 288
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-19",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 289
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-20",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 290
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-21",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 291
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-22",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 292
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-23",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 293
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-24",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 294
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-25",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 295
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-26",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 296
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-27",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 297
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-28",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 298
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-29",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 299
+},
+{
+    "fields": {
+        "city": 11,
+        "day": "2015-09-30",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 300
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-01",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 301
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-02",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 302
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-03",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 303
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-04",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 304
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-05",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 305
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-06",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 306
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-07",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 307
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-08",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 308
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-09",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 309
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-10",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 310
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-11",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 311
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-12",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 312
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-13",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 313
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-14",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 314
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-15",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 315
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-16",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 316
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-17",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 317
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-18",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 318
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-19",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 319
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-20",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 320
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-21",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 321
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-22",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 322
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-23",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 323
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-24",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 324
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-25",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 325
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-26",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 326
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-27",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 327
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-28",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 328
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-29",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 329
+},
+{
+    "fields": {
+        "city": 12,
+        "day": "2015-09-30",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 330
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-01",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 331
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-02",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 332
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-03",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 333
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-04",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 334
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-05",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 335
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-06",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 336
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-07",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 337
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-08",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 338
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-09",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 339
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-10",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 340
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-11",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 341
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-12",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 342
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-13",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 343
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-14",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 344
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-15",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 345
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-16",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 346
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-17",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 347
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-18",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 348
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-19",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 349
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-20",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 350
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-21",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 351
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-22",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 352
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-23",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 353
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-24",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 354
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-25",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 355
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-26",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 356
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-27",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 357
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-28",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 358
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-29",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 359
+},
+{
+    "fields": {
+        "city": 13,
+        "day": "2015-09-30",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 360
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-01",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 361
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-02",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 362
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-03",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 363
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-04",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 364
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-05",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 365
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-06",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 366
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-07",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 367
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-08",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 368
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-09",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 369
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-10",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 370
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-11",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 371
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-12",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 372
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-13",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 373
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-14",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 374
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-15",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 375
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-16",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 376
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-17",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 377
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-18",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 378
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-19",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 379
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-20",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 380
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-21",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 381
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-22",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 382
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-23",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 383
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-24",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 384
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-25",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 385
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-26",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 386
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-27",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 387
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-28",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 388
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-29",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 389
+},
+{
+    "fields": {
+        "city": 14,
+        "day": "2015-09-30",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 390
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-01",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 391
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-02",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 392
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-03",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 393
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-04",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 394
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-05",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 395
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-06",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 396
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-07",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 397
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-08",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 398
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-09",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 399
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-10",
+        "temperature": 20
+    },
+    "model": "ppal.dailyweather",
+    "pk": 400
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-11",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 401
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-12",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 402
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-13",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 403
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-14",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 404
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-15",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 405
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-16",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 406
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-17",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 407
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-18",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 408
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-19",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 409
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-20",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 410
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-21",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 411
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-22",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 412
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-23",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 413
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-24",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 414
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-25",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 415
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-26",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 416
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-27",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 417
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-28",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 418
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-29",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 419
+},
+{
+    "fields": {
+        "city": 15,
+        "day": "2015-09-30",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 420
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-01",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 421
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-02",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 422
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-03",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 423
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-04",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 424
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-05",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 425
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-06",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 426
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-07",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 427
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-08",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 428
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-09",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 429
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-10",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 430
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-11",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 431
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-12",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 432
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-13",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 433
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-14",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 434
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-15",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 435
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-16",
+        "temperature": 15
+    },
+    "model": "ppal.dailyweather",
+    "pk": 436
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-17",
+        "temperature": 15
+    },
+    "model": "ppal.dailyweather",
+    "pk": 437
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-18",
+        "temperature": 14
+    },
+    "model": "ppal.dailyweather",
+    "pk": 438
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-19",
+        "temperature": 14
+    },
+    "model": "ppal.dailyweather",
+    "pk": 439
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-20",
+        "temperature": 14
+    },
+    "model": "ppal.dailyweather",
+    "pk": 440
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-21",
+        "temperature": 14
+    },
+    "model": "ppal.dailyweather",
+    "pk": 441
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-22",
+        "temperature": 14
+    },
+    "model": "ppal.dailyweather",
+    "pk": 442
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-23",
+        "temperature": 13
+    },
+    "model": "ppal.dailyweather",
+    "pk": 443
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-24",
+        "temperature": 13
+    },
+    "model": "ppal.dailyweather",
+    "pk": 444
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-25",
+        "temperature": 13
+    },
+    "model": "ppal.dailyweather",
+    "pk": 445
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-26",
+        "temperature": 13
+    },
+    "model": "ppal.dailyweather",
+    "pk": 446
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-27",
+        "temperature": 13
+    },
+    "model": "ppal.dailyweather",
+    "pk": 447
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-28",
+        "temperature": 12
+    },
+    "model": "ppal.dailyweather",
+    "pk": 448
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-29",
+        "temperature": 12
+    },
+    "model": "ppal.dailyweather",
+    "pk": 449
+},
+{
+    "fields": {
+        "city": 16,
+        "day": "2015-09-30",
+        "temperature": 12
+    },
+    "model": "ppal.dailyweather",
+    "pk": 450
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-01",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 451
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-02",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 452
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-03",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 453
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-04",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 454
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-05",
+        "temperature": 19
+    },
+    "model": "ppal.dailyweather",
+    "pk": 455
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-06",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 456
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-07",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 457
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-08",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 458
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-09",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 459
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-10",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 460
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-11",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 461
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-12",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 462
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-13",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 463
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-14",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 464
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-15",
+        "temperature": 18
+    },
+    "model": "ppal.dailyweather",
+    "pk": 465
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-16",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 466
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-17",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 467
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-18",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 468
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-19",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 469
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-20",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 470
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-21",
+        "temperature": 17
+    },
+    "model": "ppal.dailyweather",
+    "pk": 471
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-22",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 472
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-23",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 473
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-24",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 474
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-25",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 475
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-26",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 476
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-27",
+        "temperature": 16
+    },
+    "model": "ppal.dailyweather",
+    "pk": 477
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-28",
+        "temperature": 15
+    },
+    "model": "ppal.dailyweather",
+    "pk": 478
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-29",
+        "temperature": 15
+    },
+    "model": "ppal.dailyweather",
+    "pk": 479
+},
+{
+    "fields": {
+        "city": 17,
+        "day": "2015-09-30",
+        "temperature": 15
+    },
+    "model": "ppal.dailyweather",
+    "pk": 480
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-01",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 481
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-02",
+        "temperature": 27
+    },
+    "model": "ppal.dailyweather",
+    "pk": 482
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-03",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 483
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-04",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 484
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-05",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 485
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-06",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 486
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-07",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 487
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-08",
+        "temperature": 26
+    },
+    "model": "ppal.dailyweather",
+    "pk": 488
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-09",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 489
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-10",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 490
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-11",
+        "temperature": 25
+    },
+    "model": "ppal.dailyweather",
+    "pk": 491
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-12",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 492
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-13",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 493
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-14",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 494
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-15",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 495
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-16",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 496
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-17",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 497
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-18",
+        "temperature": 24
+    },
+    "model": "ppal.dailyweather",
+    "pk": 498
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-19",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 499
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-20",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 500
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-21",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 501
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-22",
+        "temperature": 23
+    },
+    "model": "ppal.dailyweather",
+    "pk": 502
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-23",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 503
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-24",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 504
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-25",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 505
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-26",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 506
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-27",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 507
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-28",
+        "temperature": 22
+    },
+    "model": "ppal.dailyweather",
+    "pk": 508
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-29",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 509
+},
+{
+    "fields": {
+        "city": 18,
+        "day": "2015-09-30",
+        "temperature": 21
+    },
+    "model": "ppal.dailyweather",
+    "pk": 510
+},
+{
+    "fields": {
+        "codename": "add_logentry",
+        "name": "Can add log entry",
+        "content_type": 1
+    },
+    "model": "auth.permission",
+    "pk": 1
+},
+{
+    "fields": {
+        "codename": "change_logentry",
+        "name": "Can change log entry",
+        "content_type": 1
+    },
+    "model": "auth.permission",
+    "pk": 2
+},
+{
+    "fields": {
+        "codename": "delete_logentry",
+        "name": "Can delete log entry",
+        "content_type": 1
+    },
+    "model": "auth.permission",
+    "pk": 3
+},
+{
+    "fields": {
+        "codename": "add_permission",
+        "name": "Can add permission",
+        "content_type": 2
+    },
+    "model": "auth.permission",
+    "pk": 4
+},
+{
+    "fields": {
+        "codename": "change_permission",
+        "name": "Can change permission",
+        "content_type": 2
+    },
+    "model": "auth.permission",
+    "pk": 5
+},
+{
+    "fields": {
+        "codename": "delete_permission",
+        "name": "Can delete permission",
+        "content_type": 2
+    },
+    "model": "auth.permission",
+    "pk": 6
+},
+{
+    "fields": {
+        "codename": "add_group",
+        "name": "Can add group",
+        "content_type": 3
+    },
+    "model": "auth.permission",
+    "pk": 7
+},
+{
+    "fields": {
+        "codename": "change_group",
+        "name": "Can change group",
+        "content_type": 3
+    },
+    "model": "auth.permission",
+    "pk": 8
+},
+{
+    "fields": {
+        "codename": "delete_group",
+        "name": "Can delete group",
+        "content_type": 3
+    },
+    "model": "auth.permission",
+    "pk": 9
+},
+{
+    "fields": {
+        "codename": "add_user",
+        "name": "Can add user",
+        "content_type": 4
+    },
+    "model": "auth.permission",
+    "pk": 10
+},
+{
+    "fields": {
+        "codename": "change_user",
+        "name": "Can change user",
+        "content_type": 4
+    },
+    "model": "auth.permission",
+    "pk": 11
+},
+{
+    "fields": {
+        "codename": "delete_user",
+        "name": "Can delete user",
+        "content_type": 4
+    },
+    "model": "auth.permission",
+    "pk": 12
+},
+{
+    "fields": {
+        "codename": "add_contenttype",
+        "name": "Can add content type",
+        "content_type": 5
+    },
+    "model": "auth.permission",
+    "pk": 13
+},
+{
+    "fields": {
+        "codename": "change_contenttype",
+        "name": "Can change content type",
+        "content_type": 5
+    },
+    "model": "auth.permission",
+    "pk": 14
+},
+{
+    "fields": {
+        "codename": "delete_contenttype",
+        "name": "Can delete content type",
+        "content_type": 5
+    },
+    "model": "auth.permission",
+    "pk": 15
+},
+{
+    "fields": {
+        "codename": "add_session",
+        "name": "Can add session",
+        "content_type": 6
+    },
+    "model": "auth.permission",
+    "pk": 16
+},
+{
+    "fields": {
+        "codename": "change_session",
+        "name": "Can change session",
+        "content_type": 6
+    },
+    "model": "auth.permission",
+    "pk": 17
+},
+{
+    "fields": {
+        "codename": "delete_session",
+        "name": "Can delete session",
+        "content_type": 6
+    },
+    "model": "auth.permission",
+    "pk": 18
+},
+{
+    "fields": {
+        "codename": "add_message",
+        "name": "Can add Message",
+        "content_type": 7
+    },
+    "model": "auth.permission",
+    "pk": 19
+},
+{
+    "fields": {
+        "codename": "change_message",
+        "name": "Can change Message",
+        "content_type": 7
+    },
+    "model": "auth.permission",
+    "pk": 20
+},
+{
+    "fields": {
+        "codename": "delete_message",
+        "name": "Can delete Message",
+        "content_type": 7
+    },
+    "model": "auth.permission",
+    "pk": 21
+},
+{
+    "fields": {
+        "codename": "add_city",
+        "name": "Can add city",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 22
+},
+{
+    "fields": {
+        "codename": "change_city",
+        "name": "Can change city",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 23
+},
+{
+    "fields": {
+        "codename": "delete_city",
+        "name": "Can delete city",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 24
+},
+{
+    "fields": {
+        "codename": "add_dailyweather",
+        "name": "Can add daily weather",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 25
+},
+{
+    "fields": {
+        "codename": "change_dailyweather",
+        "name": "Can change daily weather",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 26
+},
+{
+    "fields": {
+        "codename": "delete_dailyweather",
+        "name": "Can delete daily weather",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 27
+},
+{
+    "fields": {
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2015-09-14T11:22:31.223Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$12000$5dbwC4gnhzFz$j+9uQu4bCVp3tp9BvNoHweQeR5gK/mrM2XSwpJfOl1w=",
+        "email": "",
+        "date_joined": "2015-09-14T10:33:56.536Z"
+    },
+    "model": "auth.user",
+    "pk": 1
+}
+]

@@ -1,0 +1,41 @@
+{% extends "index.html" %}
+{% block list %}
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Today weather</h1>
+          
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>City</th>
+                  <th>Temperature</th>
+                  <th></th>
+                </tr>
+              </thead>
+              </tbody>
+                {% include "_city_list.html" with list=city_list %}
+
+              </tbody>
+            </table>
+          </div>
+
+          <h1 class="page-header">All our cities</h1>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>City</th>
+                  <th>Acronym</th>
+                  <th></th>
+                </tr>
+              </thead>
+              </tbody>
+                {% include "_all_cities_list.html" with list=all_cities %}
+
+              </tbody>
+            </table>
+          </div>
+{% if user.is_authenticated %}
+          <a id="create_weather_btn" class="btn btn-primary" href="{% url 'create_city' %}">Add city</a>
+          {% endif %}
+{% endblock %}

@@ -1,0 +1,7 @@
+{% for object in list %}
+				<tr>
+                  <th>{{ object.city.name }}</th>
+                  <th>{{ object.temperature }}º</th>
+                  <th><a href="{% url 'daily_weather' num=object.city.id%}">See others days</a></th>
+                </tr>
+{% endfor %}

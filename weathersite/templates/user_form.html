@@ -1,0 +1,11 @@
+{% extends "__base_form.html" %}
+
+{% block title %}
+Nuevo User
+{% endblock %}
+
+{% block buttons %}
+    {# the refresh button is in setting.py #}
+    <button class="btn btn-primary" type="submit" value="Enviar">Register</button>
+    <p>Do you have an account? <a href="{% url 'create_user' %}" class="btn">Login</a></p>
+{% endblock %}
